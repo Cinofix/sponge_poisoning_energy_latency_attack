@@ -1,0 +1,1 @@
+This is the ASIC simulator implementation given in [https://github.com/iliaishacked/sponge_examples](https://github.com/iliaishacked/sponge_examples).
