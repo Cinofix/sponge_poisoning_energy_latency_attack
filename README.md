@@ -26,15 +26,15 @@ Moreover, we further included in the `slurm` folder the script used to run our e
 
 The code is structured as follows: 
 
-- ```--experiments_results/```, where experimental results will be writen and analyzed.
-- ```--figs/```, where experimental figures are stored.
-- ```--forest/```, contains the implementation for clean and sponge training, data manager and the ASIC simulator.
-- ```--log/```, contains experimental logs created with slurm scripts.
-- ```--slurm/```, contains for each dataset the scripts we used to run experiments reported in the paper.
-- ```--eval_table_stats.py```, get statistics from already sponged models in `experiments_results/{args.dataset}/{args.net}`.
-- ```--layers_activations.py```, get layers activations for already sponged models in `experiments_results/{args.dataset}/{args.net}`.
-- ```--plotting.ipynb```, python notebook we used to generate the figures.
-- ```--sponger.py```, train {args.net} model in {args.dataset} dataset with budget p={args.budget}, $\sigma$={args.sigma}, and $\lambda=${args.lb}.
+- **experiments_results/**, where experimental results will be writen and analyzed.
+- **figs/**, where experimental figures are stored.
+- **forest/**, contains the implementation for clean and sponge training, data manager and the ASIC simulator.
+- **log/**, contains experimental logs created with slurm scripts.
+- **slurm/**, contains for each dataset the scripts we used to run experiments reported in the paper.
+- **eval_table_stats.py**, get statistics from already sponged models in `experiments_results/{args.dataset}/{args.net}`.
+- **layers_activations.py**, get layers activations for already sponged models in `experiments_results/{args.dataset}/{args.net}`.
+- **plotting.ipynb**, python notebook we used to generate the figures.
+- **sponger.py**, train `{args.net}` model in {args.dataset} dataset with budget p=`{args.budget}`, $\sigma$=`{args.sigma}`, and $\lambda=$`{args.lb}`.
 
 
 ### Running Experiments 
